@@ -1,0 +1,22 @@
+.banner-img{
+    background-image: url(/public/img/header-bg.png);
+  }
+  
+ nav{
+    background-color: #FF7F27;
+ }
+ .drop{
+   background-color: #FF7F27;
+   font-style: italic;
+   
+ }
+ 
+
+ @media screen and (max-width: 767px) {
+   .banner-img{
+      display: flex;
+      flex-direction: column;
+      display: block;
+      overflow: hidden;
+   }
+ }

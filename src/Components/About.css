@@ -1,0 +1,13 @@
+#about li{
+    list-style: none;
+    background: url(/public/img/marker_1.gif);
+    background-repeat: no-repeat;
+    padding-left: 48px;
+    line-height: 35px;
+}
+#about h1{
+    background-color: aqua;
+    margin-top: 2px;   
+    border-bottom-right-radius:500px ;
+    color: #3D4094;
+   }
