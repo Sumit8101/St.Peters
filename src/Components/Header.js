@@ -56,12 +56,12 @@ export default function Header() {
                 </Link>
                 <ul class="dropdown-menu drop">
                   <li>
-                    <Link class="dropdown-item" to="./About">
+                    <Link class="dropdown-item" to="/About">
                       About School
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item" to="./Staff">
+                    <Link class="dropdown-item" to="/Staff">
                       Staff
                     </Link>
                   </li>
@@ -71,7 +71,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item" to="./Mission_vision">
+                    <Link class="dropdown-item" to="/Mission_vision">
                       Mission & Vision
                     </Link>
                   </li>
@@ -89,12 +89,12 @@ export default function Header() {
                 </Link>
                 <ul class="dropdown-menu drop">
                   <li>
-                    <Link class="dropdown-item" to="./Mission_vision">
+                    <Link class="dropdown-item" to="/Mission_vision">
                       Admission Information
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item" to="./Mission_vision">
+                    <Link class="dropdown-item" to="/Mission_vision">
                       Fees Structur
                     </Link>
                   </li>
@@ -112,12 +112,12 @@ export default function Header() {
                 </Link>
                 <ul class="dropdown-menu drop">
                   <li>
-                    <Link class="dropdown-item" to="./Mission_vision">
+                    <Link class="dropdown-item" to="/Mission_vision">
                       Photo Gallary
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item" to="./Mission_vision">
+                    <Link class="dropdown-item" to="/Mission_vision">
                       Video Gallary
                     </Link>
                   </li>
@@ -140,7 +140,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item" to="./Career">
+                    <Link class="dropdown-item" to="/Career">
                       Career
                     </Link>
                   </li>
