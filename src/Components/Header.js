@@ -16,7 +16,7 @@ export default function Header() {
           <div className="col-2 ">
             <Link to="/Login">
               <button type="button" class="btn btn-light">
-                Log In
+                LogIn
               </button>
             </Link>
           </div>
