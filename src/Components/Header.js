@@ -39,21 +39,21 @@ export default function Header() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+                <Link class="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
 
               <li class="nav-item dropdown">
-                <a
+                <Link
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  to="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   About
-                </a>
+                </Link>
                 <ul class="dropdown-menu drop">
                   <li>
                     <Link class="dropdown-item" to="./About">
@@ -61,88 +61,88 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./Staff">
+                    <Link class="dropdown-item" to="./Staff">
                       Staff
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="https://www.cbse.gov.in/cbsenew/cbse.html" target="_blank">
+                    <Link class="dropdown-item" to="https://www.cbse.gov.in/cbsenew/cbse.html" target="_blank">
                       CBSE Information
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./Mission_vision">
+                    <Link class="dropdown-item" to="./Mission_vision">
                       Mission & Vision
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a
+                <Link
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  to="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Admission
-                </a>
+                </Link>
                 <ul class="dropdown-menu drop">
                   <li>
-                    <a class="dropdown-item" href="./Mission_vision">
+                    <Link class="dropdown-item" to="./Mission_vision">
                       Admission Information
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./Mission_vision">
+                    <Link class="dropdown-item" to="./Mission_vision">
                       Fees Structur
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a
+                <Link
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  to="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Gallary
-                </a>
+                </Link>
                 <ul class="dropdown-menu drop">
                   <li>
-                    <a class="dropdown-item" href="./Mission_vision">
+                    <Link class="dropdown-item" to="./Mission_vision">
                       Photo Gallary
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./Mission_vision">
+                    <Link class="dropdown-item" to="./Mission_vision">
                       Video Gallary
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a
+                <Link
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  to="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Contact
-                </a>
+                </Link>
                 <ul class="dropdown-menu drop">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <Link class="dropdown-item" to="#">
                       Phone Directory
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./Career">
+                    <Link class="dropdown-item" to="./Career">
                       Career
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
